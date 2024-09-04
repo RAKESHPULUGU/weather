@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Pure CSS Rain with Strom</title>
+	<link rel="stylesheet" href="style.css" />
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="container" id="background">	
+		<div class="cloud1"></div>
+		<div class="cloud2"> </div>
+		<div class="cloud3"> </div>
+	</div>
+	<div id="weather-container">
+		<h2>Weather App</h2>
+		<label for="city">Enter City:</label>
+		<input type="text" id="city" placeholder="City Name">
+		<button onclick="getWeather()">Get Weather</button>
+		<!-- Temperature display moved below the button -->
+		<div id="temp-div"></div>
+		<div id="weather-info"></div>
+		<img id="weather-icon" alt="Weather Icon">
+		<div id="hourly-forecast"></div>
+		<div id="forecast-info"></div>
+	</div>
+	
+
+</body>
+</html>
